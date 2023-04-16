@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="app.js" type="module"></script>
+	<title>Auto Koop Voorspelling</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Gaat deze persoon een auto kopen?</h1>
+
+    <form name="prediction">
+		<label>Geslacht:</label>
+		<select id="Gender" name="Gender" form="prediction"><br>
+            <option value="Male">Man</option>
+            <option value="Female">Vrouw</option>
+        </select>
+
+		<label for="ageSlider">Leeftijd:</label>
+		<span id="ageValue"></span>
+		<input type="range" name="Age" min="0" max="100" value="0" step="1" class="slider" id="ageSlider">
+		
+		<label for="salarySlider">Jaarinkomen:</label>
+		<span id="salaryValue"></span>
+		<input type="range" name="AnnualSalary" min="0" max="50000" value="0" step="100" class="slider" id="salarySlider">
+	</form>
+	<div id="buttoncontainer">
+		<button id="button">Voorspel</button>
+
+	</div>
+
+    <div id="prediction">Deze persoon wil...</div>
+
+	<script>
+		var ageSlider = document.getElementById("ageSlider");
+		var salarySlider = document.getElementById("salarySlider");
+		var ageOutput = document.getElementById("ageValue");
+		var salaryOutput = document.getElementById("salaryValue");
+		ageOutput.innerHTML = ageSlider.value;
+		salaryOutput.innerHTML = salarySlider.value;
+		
+		ageSlider.oninput = function() {
+			ageOutput.innerHTML = this.value;
+		}
+		
+		salarySlider.oninput = function() {
+			salaryOutput.innerHTML = this.value;
+		}
+	</script>
+</body>
+</html>

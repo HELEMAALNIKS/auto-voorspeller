@@ -1,0 +1,705 @@
+{
+	"root": {
+		"attribute": "Age",
+		"predicateName": ">=",
+		"pivot": 46,
+		"match": {
+			"attribute": "AnnualSalary",
+			"predicateName": ">=",
+			"pivot": 41500,
+			"match": {
+				"attribute": "AnnualSalary",
+				"predicateName": ">=",
+				"pivot": 85500,
+				"match": {
+					"attribute": "Age",
+					"predicateName": ">=",
+					"pivot": 56,
+					"match": {
+						"category": "1"
+					},
+					"notMatch": {
+						"attribute": "AnnualSalary",
+						"predicateName": ">=",
+						"pivot": 96000,
+						"match": {
+							"attribute": "AnnualSalary",
+							"predicateName": ">=",
+							"pivot": 144000,
+							"match": {
+								"category": "1"
+							},
+							"notMatch": {
+								"attribute": "AnnualSalary",
+								"predicateName": ">=",
+								"pivot": 104000,
+								"match": {
+									"attribute": "AnnualSalary",
+									"predicateName": ">=",
+									"pivot": 114000,
+									"match": {
+										"attribute": "AnnualSalary",
+										"predicateName": ">=",
+										"pivot": 114500,
+										"match": {
+											"attribute": "AnnualSalary",
+											"predicateName": ">=",
+											"pivot": 134000,
+											"match": {
+												"attribute": "Gender",
+												"predicateName": "==",
+												"pivot": "Male",
+												"match": {
+													"category": "0"
+												},
+												"notMatch": {
+													"attribute": "AnnualSalary",
+													"predicateName": ">=",
+													"pivot": 138000,
+													"match": {
+														"category": "1"
+													},
+													"notMatch": {
+														"attribute": "Age",
+														"predicateName": ">=",
+														"pivot": 52,
+														"match": {
+															"category": "0"
+														},
+														"notMatch": {
+															"attribute": "Age",
+															"predicateName": ">=",
+															"pivot": 48,
+															"match": {
+																"attribute": "Age",
+																"predicateName": ">=",
+																"pivot": 51,
+																"match": {
+																	"attribute": "AnnualSalary",
+																	"predicateName": ">=",
+																	"pivot": 136500,
+																	"match": {
+																		"category": "1"
+																	},
+																	"notMatch": {
+																		"category": "0"
+																	},
+																	"matchedCount": 1,
+																	"notMatchedCount": 1
+																},
+																"notMatch": {
+																	"category": "1"
+																},
+																"matchedCount": 2,
+																"notMatchedCount": 2
+															},
+															"notMatch": {
+																"category": "0"
+															},
+															"matchedCount": 4,
+															"notMatchedCount": 1
+														},
+														"matchedCount": 2,
+														"notMatchedCount": 5
+													},
+													"matchedCount": 10,
+													"notMatchedCount": 7
+												},
+												"matchedCount": 3,
+												"notMatchedCount": 17
+											},
+											"notMatch": {
+												"attribute": "AnnualSalary",
+												"predicateName": ">=",
+												"pivot": 118500,
+												"match": {
+													"category": "1"
+												},
+												"notMatch": {
+													"attribute": "Age",
+													"predicateName": ">=",
+													"pivot": 53,
+													"match": {
+														"category": "0"
+													},
+													"notMatch": {
+														"category": "1"
+													},
+													"matchedCount": 2,
+													"notMatchedCount": 2
+												},
+												"matchedCount": 10,
+												"notMatchedCount": 4
+											},
+											"matchedCount": 20,
+											"notMatchedCount": 14
+										},
+										"notMatch": {
+											"category": "0"
+										},
+										"matchedCount": 34,
+										"notMatchedCount": 1
+									},
+									"notMatch": {
+										"category": "1"
+									},
+									"matchedCount": 35,
+									"notMatchedCount": 12
+								},
+								"notMatch": {
+									"attribute": "Age",
+									"predicateName": ">=",
+									"pivot": 48,
+									"match": {
+										"attribute": "AnnualSalary",
+										"predicateName": ">=",
+										"pivot": 98500,
+										"match": {
+											"category": "0"
+										},
+										"notMatch": {
+											"category": "1"
+										},
+										"matchedCount": 1,
+										"notMatchedCount": 2
+									},
+									"notMatch": {
+										"category": "0"
+									},
+									"matchedCount": 3,
+									"notMatchedCount": 2
+								},
+								"matchedCount": 47,
+								"notMatchedCount": 5
+							},
+							"matchedCount": 8,
+							"notMatchedCount": 52
+						},
+						"notMatch": {
+							"category": "1"
+						},
+						"matchedCount": 60,
+						"notMatchedCount": 14
+					},
+					"matchedCount": 30,
+					"notMatchedCount": 74
+				},
+				"notMatch": {
+					"attribute": "Age",
+					"predicateName": ">=",
+					"pivot": 54,
+					"match": {
+						"attribute": "Gender",
+						"predicateName": "==",
+						"pivot": "Female",
+						"match": {
+							"attribute": "AnnualSalary",
+							"predicateName": ">=",
+							"pivot": 47000,
+							"match": {
+								"attribute": "AnnualSalary",
+								"predicateName": ">=",
+								"pivot": 83000,
+								"match": {
+									"attribute": "Age",
+									"predicateName": ">=",
+									"pivot": 59,
+									"match": {
+										"category": "0"
+									},
+									"notMatch": {
+										"category": "1"
+									},
+									"matchedCount": 2,
+									"notMatchedCount": 1
+								},
+								"notMatch": {
+									"category": "1"
+								},
+								"matchedCount": 3,
+								"notMatchedCount": 5
+							},
+							"notMatch": {
+								"category": "0"
+							},
+							"matchedCount": 8,
+							"notMatchedCount": 2
+						},
+						"notMatch": {
+							"category": "1"
+						},
+						"matchedCount": 10,
+						"notMatchedCount": 19
+					},
+					"notMatch": {
+						"attribute": "AnnualSalary",
+						"predicateName": ">=",
+						"pivot": 83500,
+						"match": {
+							"category": "0"
+						},
+						"notMatch": {
+							"attribute": "AnnualSalary",
+							"predicateName": ">=",
+							"pivot": 82000,
+							"match": {
+								"category": "1"
+							},
+							"notMatch": {
+								"attribute": "AnnualSalary",
+								"predicateName": ">=",
+								"pivot": 43000,
+								"match": {
+									"attribute": "AnnualSalary",
+									"predicateName": ">=",
+									"pivot": 47500,
+									"match": {
+										"attribute": "AnnualSalary",
+										"predicateName": ">=",
+										"pivot": 59000,
+										"match": {
+											"attribute": "Gender",
+											"predicateName": "==",
+											"pivot": "Male",
+											"match": {
+												"attribute": "AnnualSalary",
+												"predicateName": ">=",
+												"pivot": 72000,
+												"match": {
+													"attribute": "AnnualSalary",
+													"predicateName": ">=",
+													"pivot": 74000,
+													"match": {
+														"attribute": "Age",
+														"predicateName": ">=",
+														"pivot": 52,
+														"match": {
+															"category": "0"
+														},
+														"notMatch": {
+															"attribute": "Age",
+															"predicateName": ">=",
+															"pivot": 51,
+															"match": {
+																"category": "1"
+															},
+															"notMatch": {
+																"attribute": "Age",
+																"predicateName": ">=",
+																"pivot": 50,
+																"match": {
+																	"category": "0"
+																},
+																"notMatch": {
+																	"attribute": "AnnualSalary",
+																	"predicateName": ">=",
+																	"pivot": 80500,
+																	"match": {
+																		"attribute": "Age",
+																		"predicateName": ">=",
+																		"pivot": 49,
+																		"match": {
+																			"category": "1"
+																		},
+																		"notMatch": {
+																			"attribute": "Age",
+																			"predicateName": ">=",
+																			"pivot": 47,
+																			"match": {
+																				"attribute": "Age",
+																				"predicateName": ">=",
+																				"pivot": 48,
+																				"match": {
+																					"category": "0"
+																				},
+																				"notMatch": {
+																					"category": "1"
+																				},
+																				"matchedCount": 1,
+																				"notMatchedCount": 1
+																			},
+																			"notMatch": {
+																				"category": "0"
+																			},
+																			"matchedCount": 2,
+																			"notMatchedCount": 1
+																		},
+																		"matchedCount": 1,
+																		"notMatchedCount": 3
+																	},
+																	"notMatch": {
+																		"attribute": "Age",
+																		"predicateName": ">=",
+																		"pivot": 49,
+																		"match": {
+																			"attribute": "AnnualSalary",
+																			"predicateName": ">=",
+																			"pivot": 75500,
+																			"match": {
+																				"category": "1"
+																			},
+																			"notMatch": {
+																				"category": "0"
+																			},
+																			"matchedCount": 1,
+																			"notMatchedCount": 1
+																		},
+																		"notMatch": {
+																			"category": "1"
+																		},
+																		"matchedCount": 2,
+																		"notMatchedCount": 2
+																	},
+																	"matchedCount": 4,
+																	"notMatchedCount": 4
+																},
+																"matchedCount": 1,
+																"notMatchedCount": 8
+															},
+															"matchedCount": 1,
+															"notMatchedCount": 9
+														},
+														"matchedCount": 1,
+														"notMatchedCount": 10
+													},
+													"notMatch": {
+														"category": "1"
+													},
+													"matchedCount": 11,
+													"notMatchedCount": 1
+												},
+												"notMatch": {
+													"category": "0"
+												},
+												"matchedCount": 12,
+												"notMatchedCount": 2
+											},
+											"notMatch": {
+												"category": "0"
+											},
+											"matchedCount": 14,
+											"notMatchedCount": 3
+										},
+										"notMatch": {
+											"attribute": "AnnualSalary",
+											"predicateName": ">=",
+											"pivot": 50000,
+											"match": {
+												"category": "1"
+											},
+											"notMatch": {
+												"attribute": "Age",
+												"predicateName": ">=",
+												"pivot": 50,
+												"match": {
+													"category": "0"
+												},
+												"notMatch": {
+													"attribute": "AnnualSalary",
+													"predicateName": ">=",
+													"pivot": 49000,
+													"match": {
+														"category": "1"
+													},
+													"notMatch": {
+														"attribute": "AnnualSalary",
+														"predicateName": ">=",
+														"pivot": 48500,
+														"match": {
+															"category": "0"
+														},
+														"notMatch": {
+															"category": "1"
+														},
+														"matchedCount": 1,
+														"notMatchedCount": 1
+													},
+													"matchedCount": 1,
+													"notMatchedCount": 2
+												},
+												"matchedCount": 1,
+												"notMatchedCount": 3
+											},
+											"matchedCount": 5,
+											"notMatchedCount": 4
+										},
+										"matchedCount": 17,
+										"notMatchedCount": 9
+									},
+									"notMatch": {
+										"attribute": "Age",
+										"predicateName": ">=",
+										"pivot": 47,
+										"match": {
+											"attribute": "AnnualSalary",
+											"predicateName": ">=",
+											"pivot": 44000,
+											"match": {
+												"category": "0"
+											},
+											"notMatch": {
+												"attribute": "Gender",
+												"predicateName": "==",
+												"pivot": "Male",
+												"match": {
+													"category": "0"
+												},
+												"notMatch": {
+													"category": "1"
+												},
+												"matchedCount": 1,
+												"notMatchedCount": 1
+											},
+											"matchedCount": 6,
+											"notMatchedCount": 2
+										},
+										"notMatch": {
+											"category": "1"
+										},
+										"matchedCount": 8,
+										"notMatchedCount": 1
+									},
+									"matchedCount": 26,
+									"notMatchedCount": 9
+								},
+								"notMatch": {
+									"attribute": "AnnualSalary",
+									"predicateName": ">=",
+									"pivot": 42500,
+									"match": {
+										"category": "1"
+									},
+									"notMatch": {
+										"attribute": "Age",
+										"predicateName": ">=",
+										"pivot": 52,
+										"match": {
+											"category": "1"
+										},
+										"notMatch": {
+											"category": "0"
+										},
+										"matchedCount": 1,
+										"notMatchedCount": 1
+									},
+									"matchedCount": 2,
+									"notMatchedCount": 2
+								},
+								"matchedCount": 35,
+								"notMatchedCount": 4
+							},
+							"matchedCount": 1,
+							"notMatchedCount": 39
+						},
+						"matchedCount": 2,
+						"notMatchedCount": 40
+					},
+					"matchedCount": 29,
+					"notMatchedCount": 42
+				},
+				"matchedCount": 104,
+				"notMatchedCount": 71
+			},
+			"notMatch": {
+				"attribute": "AnnualSalary",
+				"predicateName": ">=",
+				"pivot": 25500,
+				"match": {
+					"category": "1"
+				},
+				"notMatch": {
+					"attribute": "AnnualSalary",
+					"predicateName": ">=",
+					"pivot": 23500,
+					"match": {
+						"attribute": "Gender",
+						"predicateName": "==",
+						"pivot": "Female",
+						"match": {
+							"attribute": "Age",
+							"predicateName": ">=",
+							"pivot": 59,
+							"match": {
+								"category": "1"
+							},
+							"notMatch": {
+								"attribute": "Age",
+								"predicateName": ">=",
+								"pivot": 47,
+								"match": {
+									"category": "0"
+								},
+								"notMatch": {
+									"category": "1"
+								},
+								"matchedCount": 2,
+								"notMatchedCount": 1
+							},
+							"matchedCount": 1,
+							"notMatchedCount": 3
+						},
+						"notMatch": {
+							"category": "1"
+						},
+						"matchedCount": 4,
+						"notMatchedCount": 2
+					},
+					"notMatch": {
+						"category": "1"
+					},
+					"matchedCount": 6,
+					"notMatchedCount": 11
+				},
+				"matchedCount": 60,
+				"notMatchedCount": 17
+			},
+			"matchedCount": 175,
+			"notMatchedCount": 77
+		},
+		"notMatch": {
+			"attribute": "AnnualSalary",
+			"predicateName": ">=",
+			"pivot": 91000,
+			"match": {
+				"attribute": "AnnualSalary",
+				"predicateName": ">=",
+				"pivot": 135000,
+				"match": {
+					"category": "1"
+				},
+				"notMatch": {
+					"attribute": "AnnualSalary",
+					"predicateName": ">=",
+					"pivot": 108000,
+					"match": {
+						"attribute": "AnnualSalary",
+						"predicateName": ">=",
+						"pivot": 120000,
+						"match": {
+							"attribute": "Age",
+							"predicateName": ">=",
+							"pivot": 43,
+							"match": {
+								"attribute": "AnnualSalary",
+								"predicateName": ">=",
+								"pivot": 133000,
+								"match": {
+									"category": "0"
+								},
+								"notMatch": {
+									"category": "1"
+								},
+								"matchedCount": 2,
+								"notMatchedCount": 2
+							},
+							"notMatch": {
+								"category": "1"
+							},
+							"matchedCount": 4,
+							"notMatchedCount": 14
+						},
+						"notMatch": {
+							"attribute": "Age",
+							"predicateName": ">=",
+							"pivot": 42,
+							"match": {
+								"category": "1"
+							},
+							"notMatch": {
+								"attribute": "AnnualSalary",
+								"predicateName": ">=",
+								"pivot": 118000,
+								"match": {
+									"attribute": "Age",
+									"predicateName": ">=",
+									"pivot": 31,
+									"match": {
+										"attribute": "Gender",
+										"predicateName": "==",
+										"pivot": "Female",
+										"match": {
+											"attribute": "Age",
+											"predicateName": ">=",
+											"pivot": 33,
+											"match": {
+												"category": "0"
+											},
+											"notMatch": {
+												"category": "1"
+											},
+											"matchedCount": 2,
+											"notMatchedCount": 2
+										},
+										"notMatch": {
+											"category": "1"
+										},
+										"matchedCount": 4,
+										"notMatchedCount": 2
+									},
+									"notMatch": {
+										"category": "0"
+									},
+									"matchedCount": 6,
+									"notMatchedCount": 1
+								},
+								"notMatch": {
+									"attribute": "AnnualSalary",
+									"predicateName": ">=",
+									"pivot": 108500,
+									"match": {
+										"attribute": "AnnualSalary",
+										"predicateName": ">=",
+										"pivot": 109500,
+										"match": {
+											"attribute": "AnnualSalary",
+											"predicateName": ">=",
+											"pivot": 117500,
+											"match": {
+												"category": "0"
+											},
+											"notMatch": {
+												"category": "0"
+											},
+											"matchedCount": 1,
+											"notMatchedCount": 13
+										},
+										"notMatch": {
+											"category": "1"
+										},
+										"matchedCount": 14,
+										"notMatchedCount": 2
+									},
+									"notMatch": {
+										"category": "0"
+									},
+									"matchedCount": 16,
+									"notMatchedCount": 1
+								},
+								"matchedCount": 7,
+								"notMatchedCount": 17
+							},
+							"matchedCount": 3,
+							"notMatchedCount": 24
+						},
+						"matchedCount": 18,
+						"notMatchedCount": 27
+					},
+					"notMatch": {
+						"category": "1"
+					},
+					"matchedCount": 45,
+					"notMatchedCount": 22
+				},
+				"matchedCount": 32,
+				"notMatchedCount": 67
+			},
+			"notMatch": {
+				"category": "0"
+			},
+			"matchedCount": 99,
+			"notMatchedCount": 449
+		},
+		"matchedCount": 252,
+		"notMatchedCount": 548
+	}
+}
